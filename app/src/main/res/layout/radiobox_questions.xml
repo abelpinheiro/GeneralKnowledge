@@ -22,50 +22,52 @@
                 style="@style/Widget.AppCompat.ProgressBar.Horizontal"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:id="@+id/pogress_bar"
+                android:id="@+id/progress_bar"
                 android:layout_marginLeft="48dp"
                 android:layout_marginRight="48dp"
                 android:layout_marginTop="16dp"
                 android:layout_marginBottom="16dp"
                 android:indeterminate="false"
+                android:min="0"
                 android:max="10"
                 android:progress="1" />
 
             <TextView
-                android:id="@+id/question"
+                android:id="@+id/question_title"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_below="@id/pogress_bar"
+                android:layout_below="@id/progress_bar"
                 android:gravity="center"
-                android:text="Quem foi a primeira mulher a ganhar o prêmio Nobel?"
+                android:text=""
                 android:textSize="34sp"
                 android:layout_marginBottom="32dp"/>
 
             <RadioGroup
+                android:id="@+id/radio_group_view"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_below="@id/question">
+                android:layout_below="@id/question_title">
 
                 <RadioButton
-                    android:id="@+id/ada_lovelace_radio_button"
+                    android:id="@+id/option_1_radio_button"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Ada Lovelace" />
 
                 <RadioButton
-                    android:id="@+id/marie_curie_radio_button"
+                    android:id="@+id/option_2_radio_button"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Marie Curie" />
 
                 <RadioButton
-                    android:id="@+id/grace_hopper_radio_button"
+                    android:id="@+id/option_3_radio_button"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Grace Hopper" />
 
                 <RadioButton
-                    android:id="@+id/mae_jemison_radio_button"
+                    android:id="@+id/option_4_radio_button"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Mae Jemison" />

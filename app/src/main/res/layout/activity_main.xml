@@ -12,148 +12,82 @@
         android:orientation="vertical">
 
         <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center_horizontal"
-            android:layout_marginBottom="64dp"
-            android:layout_marginTop="32dp"
-            android:text="Quizzes"
-            android:textSize="20dp"
-            android:textStyle="bold" />
+            style="@style/quizz_title_style"
+            android:text="@string/quizzes" />
 
         <RelativeLayout
             android:id="@+id/science_button"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="26dp"
-            android:layout_marginRight="26dp"
+            style="@style/quizz_button_layout"
             android:background="#1976d2"
-            android:clickable="true"
-            android:onClick="scienceButtonPressed"
-            android:paddingBottom="26dp"
-            android:paddingTop="26dp">
+            android:onClick="scienceButtonPressed">
 
             <TextView
                 android:id="@+id/title_science_button"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_centerHorizontal="true"
-                android:text="Ciência"
-                android:textColor="@android:color/white"
-                android:textSize="28sp" />
+                style="@style/quizz_title_button_layout"
+                android:text="@string/science_title_button" />
 
             <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                style="@style/quizz_subtitle_button_layout"
                 android:layout_below="@id/title_science_button"
-                android:layout_marginTop="4dp"
-                android:gravity="center"
-                android:text="O que você sabe sobre ciência e os grandes inventores?"
-                android:textColor="@android:color/white"
-                android:textStyle="bold" />
+                android:text="@string/science_subtitle_button" />
 
         </RelativeLayout>
 
         <RelativeLayout
             android:id="@+id/anime_button"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="26dp"
-            android:layout_marginRight="26dp"
+            style="@style/quizz_button_layout"
             android:layout_marginTop="16dp"
             android:background="#ff5722"
-            android:clickable="true"
-            android:onClick="scienceButtonPressed"
-            android:paddingBottom="26dp"
-            android:paddingTop="26dp">
+            android:onClick="animeButtonPressed">
 
             <TextView
                 android:id="@+id/title_anime_button"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_centerHorizontal="true"
-                android:text="Anime"
-                android:textColor="@android:color/white"
-                android:textSize="28sp" />
+                style="@style/quizz_title_button_layout"
+                android:text="@string/anime_title_button" />
 
             <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                style="@style/quizz_subtitle_button_layout"
                 android:layout_below="@id/title_anime_button"
-                android:layout_marginTop="4dp"
-                android:gravity="center"
-                android:text="Um quiz sobre animação japonesa, mangás e a cultura oriental ! Vai encarar?"
-                android:textColor="@android:color/white"
-                android:textStyle="bold" />
+                android:text="@string/anime_subtitle_button" />
 
         </RelativeLayout>
 
         <RelativeLayout
             android:id="@+id/computer_science_button"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="26dp"
-            android:layout_marginRight="26dp"
+            style="@style/quizz_button_layout"
             android:layout_marginTop="16dp"
             android:background="#e91e63"
-            android:clickable="true"
-            android:onClick="scienceButtonPressed"
-            android:paddingBottom="26dp"
-            android:paddingTop="26dp">
+            android:onClick="computerScienceButtonPressed">
 
             <TextView
                 android:id="@+id/title_computer_science_button"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_centerHorizontal="true"
-                android:text="Computação"
-                android:textColor="@android:color/white"
-                android:textSize="28sp" />
+                style="@style/quizz_title_button_layout"
+                android:text="@string/computer_science_title_button" />
 
             <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                style="@style/quizz_subtitle_button_layout"
                 android:layout_below="@id/title_computer_science_button"
-                android:layout_marginTop="4dp"
-                android:gravity="center"
-                android:text="Tudo sobre ciência da computação, com uma pitada de eletrônica. Não vale CTRL + Z viu!"
-                android:textColor="@android:color/white"
-                android:textStyle="bold" />
+                android:text="@string/computer_science_subtitle_button" />
 
         </RelativeLayout>
 
         <RelativeLayout
             android:id="@+id/classic_music_button"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="26dp"
-            android:layout_marginRight="26dp"
-            android:layout_marginTop="16dp"
+            style="@style/quizz_button_layout"
             android:layout_marginBottom="16dp"
+            android:layout_marginTop="16dp"
             android:background="#4caf50"
-            android:clickable="true"
-            android:onClick="scienceButtonPressed"
-            android:paddingBottom="26dp"
-            android:paddingTop="26dp">
+            android:onClick="classicalMusicButtonPressed">
 
             <TextView
                 android:id="@+id/title_classic_music_button"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_centerHorizontal="true"
-                android:text="Música Clássica"
-                android:textColor="@android:color/white"
-                android:textSize="28sp" />
+                style="@style/quizz_title_button_layout"
+                android:text="@string/classical_music_title_button" />
 
             <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                style="@style/quizz_subtitle_button_layout"
                 android:layout_below="@id/title_classic_music_button"
-                android:layout_marginTop="4dp"
-                android:gravity="center"
-                android:text="Você consegue adivinhar quem seria o compositor de cada uma dessas obras?"
-                android:textColor="@android:color/white"
-                android:textStyle="bold" />
+                android:text="@string/classical_music_subtitle_button" />
 
         </RelativeLayout>
 

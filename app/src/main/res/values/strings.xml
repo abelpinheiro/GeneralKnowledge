@@ -1,3 +1,14 @@
 <resources>
     <string name="app_name">General Knowledge</string>
+    <string name="quizzes">Quizzes</string>
+    <string name="science_title_button">Ciência</string>
+    <string name="science_subtitle_button">O que você sabe sobre ciência e os grandes inventores?</string>
+    <string name="anime_title_button">Anime</string>
+    <string name="anime_subtitle_button">Um quiz sobre animação japonesa, mangás e a cultura oriental ! Vai encarar?</string>
+    <string name="computer_science_title_button">Computação</string>
+    <string name="computer_science_subtitle_button">Tudo sobre ciência da computação, com uma pitada de eletrônica. Não vale CTRL + Z viu!</string>
+    <string name="classical_music_title_button">Música Clássica</string>
+    <string name="classical_music_subtitle_button">Você consegue adivinhar quem seria o compositor de cada uma dessas obras?</string>
+    <string name="question1_science">Quem foi a primeira mulher a ganhar o prêmio Nobel?</string>
+    <string name="question2_science">Que tipo de onda é utilizado nas ligações telefônicas?</string>
 </resources>
