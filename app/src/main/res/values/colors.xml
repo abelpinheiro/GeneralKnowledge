@@ -3,4 +3,9 @@
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
+
+    <color name="scienceColor">#1976d2</color>
+    <color name="animeColor">#ff5722</color>
+    <color name="computerScienceColor">#e91e63</color>
+    <color name="classicalMusicColor">#4caf50</color>
 </resources>

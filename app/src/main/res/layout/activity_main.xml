@@ -8,7 +8,7 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
         android:orientation="vertical">
 
         <TextView
@@ -18,7 +18,7 @@
         <RelativeLayout
             android:id="@+id/science_button"
             style="@style/quizz_button_layout"
-            android:background="#1976d2"
+            android:background="@color/scienceColor"
             android:onClick="scienceButtonPressed">
 
             <TextView
@@ -37,7 +37,7 @@
             android:id="@+id/anime_button"
             style="@style/quizz_button_layout"
             android:layout_marginTop="16dp"
-            android:background="#ff5722"
+            android:background="@color/animeColor"
             android:onClick="animeButtonPressed">
 
             <TextView
@@ -56,7 +56,7 @@
             android:id="@+id/computer_science_button"
             style="@style/quizz_button_layout"
             android:layout_marginTop="16dp"
-            android:background="#e91e63"
+            android:background="@color/computerScienceColor"
             android:onClick="computerScienceButtonPressed">
 
             <TextView
@@ -76,7 +76,7 @@
             style="@style/quizz_button_layout"
             android:layout_marginBottom="16dp"
             android:layout_marginTop="16dp"
-            android:background="#4caf50"
+            android:background="@color/classicalMusicColor"
             android:onClick="classicalMusicButtonPressed">
 
             <TextView

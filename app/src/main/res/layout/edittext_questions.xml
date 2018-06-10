@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#bdbdbd"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="8dp"
+        android:background="#fafafa">
+
+        <ProgressBar
+            android:id="@+id/progress_bar"
+            style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:layout_marginLeft="48dp"
+            android:layout_marginRight="48dp"
+            android:layout_marginTop="16dp"
+            android:indeterminate="false"
+            android:max="10"
+            android:progress="1" />
+
+        <TextView
+            android:id="@+id/question_title"
+            style="@style/question_title_style"
+            android:text=""/>
+
+        <EditText
+            android:id="@+id/answer_question"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/question_title"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:hint="@string/editText_hint"
+            android:inputType="textMultiLine"
+            android:overScrollMode="always"
+            android:scrollbarStyle="insideInset"
+            android:scrollbars="vertical" />
+
+        <Button
+            style="@style/next_question_button"
+            android:layout_below="@id/answer_question"
+            android:background="@color/scienceColor"
+            android:onClick="nextButtonPressed"
+            android:text="@string/next_question_button" />
+
+    </RelativeLayout>
+
+</ScrollView>

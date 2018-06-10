@@ -36,38 +36,30 @@
                 style="@style/question_title_style"
                 android:text=""/>
 
-            <RadioGroup
-                android:id="@+id/radio_group_view"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_below="@id/question_title">
+            <CheckBox
+                android:id="@+id/option_1_checkbox"
+                style="@style/checkBox_style"/>
 
-                <RadioButton
-                    android:id="@+id/option_1_radio_button"
-                    style="@style/radioButton_options"/>
+            <CheckBox
+                android:id="@+id/option_2_checkbox"
+                style="@style/checkBox_style"/>
 
-                <RadioButton
-                    android:id="@+id/option_2_radio_button"
-                    style="@style/radioButton_options" />
+            <CheckBox
+                android:id="@+id/option_3_checkbox"
+                style="@style/checkBox_style"/>
 
-                <RadioButton
-                    android:id="@+id/option_3_radio_button"
-                    style="@style/radioButton_options" />
-
-                <RadioButton
-                    android:id="@+id/option_4_radio_button"
-                    style="@style/radioButton_options" />
-            </RadioGroup>
+            <CheckBox
+                android:id="@+id/option_4_checkbox"
+                style="@style/checkBox_style"/>
 
         </LinearLayout>
 
         <Button
-            android:id="@+id/next_question_button"
             style="@style/next_question_button"
             android:text="@string/next_question_button"
+            android:background="@color/scienceColor"
             android:onClick="nextButtonPressed" />
 
     </RelativeLayout>
-
 
 </LinearLayout>

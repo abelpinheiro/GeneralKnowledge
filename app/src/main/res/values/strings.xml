@@ -9,6 +9,68 @@
     <string name="computer_science_subtitle_button">Tudo sobre ciência da computação, com uma pitada de eletrônica. Não vale CTRL + Z viu!</string>
     <string name="classical_music_title_button">Música Clássica</string>
     <string name="classical_music_subtitle_button">Você consegue adivinhar quem seria o compositor de cada uma dessas obras?</string>
+
+    <string name="editText_hint">Resposta</string>
+    <string name="next_question_button">Próxima questão</string>
+
+    <!--Questões em RadioBox style-->
     <string name="question1_science">Quem foi a primeira mulher a ganhar o prêmio Nobel?</string>
     <string name="question2_science">Que tipo de onda é utilizado nas ligações telefônicas?</string>
+    <string name="question3_science">Qual hormônio é conhecido também como "hormônio do amor"?</string>
+
+    <!--Questões em CheckBox style-->
+    <string name="question4_science">Quais cientistas são considerados os pais do Cálculo?</string>
+    <string name="question5_science">Com quais desses elementos é possível fazer energia nuclear?</string>
+    <string name="question6_science">Quais dos itens foram inventados por Faraday?</string>
+
+    <!--Questões em EditText style-->
+    <string name="question7_science">Quem foi que descobriu 4 luas de Júpiter e defendia o Heliocentrismo?</string>
+    <string name="question8_science">A altura de um som está relacionado com que propriedade física?</string>
+    <string name="question9_science">Quem é o pai da Teoria dos Jogos?</string>
+
+    <!--Questões 10 em RadioBox style-->
+    <string name="question10_science">Quem desenvolveu a vacina oral da Polio?</string>
+
+    <!--Opções de resposta das questões de style-->
+    <!--PRIMEIRA QUESTÃO-->
+    <string name="option1_question1_science">Ada Lovelace</string>
+    <string name="option2_question1_science">Marie Curie</string>
+    <string name="option3_question1_science">Grace Hopper</string>
+    <string name="option4_question1_science">Mae Jemison</string>
+
+    <!--SEGUNDA QUESTÃO-->
+    <string name="option1_question2_science">Ondas de rádio</string>
+    <string name="option2_question2_science">Ondas sonoras</string>
+    <string name="option3_question2_science">Ondas gravitacionais</string>
+    <string name="option4_question2_science">Ondas sísmicas</string>
+
+    <!--TERCEIRA QUESTÃO-->
+    <string name="option1_question3_science">Serotonina</string>
+    <string name="option2_question3_science">Paratormônio</string>
+    <string name="option3_question3_science">Endorfina</string>
+    <string name="option4_question3_science">Oxitocina</string>
+
+    <!--QUARTA QUESTÃO-->
+    <string name="option1_question4_science">Isaac Newton</string>
+    <string name="option2_question4_science">Srinivasa Ramanujan</string>
+    <string name="option3_question4_science">Gottfried Wilhelm Leibniz</string>
+    <string name="option4_question4_science">Alexander Grothendieck</string>
+
+    <!--QUINTA QUESTÃO-->
+    <string name="option1_question5_science">Cálcio</string>
+    <string name="option2_question5_science">Tório</string>
+    <string name="option3_question5_science">Plutônio</string>
+    <string name="option4_question5_science">Urânio</string>
+
+    <!--SEXTA QUESTÃO-->
+    <string name="option1_question6_science">Motor elétrico</string>
+    <string name="option2_question6_science">Controle remoto</string>
+    <string name="option3_question6_science">Balão de borracha</string>
+    <string name="option4_question6_science">Fotografia colorida</string>
+
+    <!--DÉCIMA QUESTÃO-->
+    <string name="option1_question10_science">Robert Koch</string>
+    <string name="option2_question10_science">Albert Sabin</string>
+    <string name="option3_question10_science">Jonas Salk</string>
+    <string name="option4_question10_science">Charles Nicolle</string>
 </resources>
